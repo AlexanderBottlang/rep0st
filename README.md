@@ -2,37 +2,7 @@
 
 Das ist die Weiterführung von rep0st von User mopsalarm (https://github.com/mopsalarm/rep0st). Eine laufende Kopie steht under http://rep0st.rene8888.at zur Verfügung.
 
-## Entwicklungsumgebung aufsetzen
-VirtualBox installieren: https://www.virtualbox.org/  
-Vagrant installieren: https://www.vagrantup.com/  
-
-VM aufsetzen und provisionieren: (Dauerte bei mir ca 20 Minuten)
-```
-vagrant up
-```
-In VM einloggen und zum Shared Folder navigieren:
-```
-vagrant ssh
-cd /vagrant
-```
-Am Host System kann man die Python Datein bearbeiten, sie werden daraufhin automatisch auf die VM übertragen.
-
-Es wird ein Dump des Index und Featurevektor aller sfw/nsfw Bilder bis circa 648000 von meinem Server geladen. Ist nur 61MB groß und reicht um das Programm zu testen und daran zu arbeiten.
-
-## Befehle für rep0st
-```
-# Startet eine rep0st instanz auf Port 1576
-# Wenn Vagrant benutzt wird, kann man am Hostsystem zu folgender URL navigieren: 192.168.1.10:1576
-env/bin/python -m rep0st.start
-
-# Erzeugt zuerst einen Index aller sfw und nsfw Bilder, ladet dann alle Bilder herunter(70GB!)
-# Wenn schon ein Index besteht und oder Bilder bestehen, werden fehlende Bilder nachgeladen
-env/bin/python -m rep0st.download
-
-# Analysiert alle Bilder und berechnet Feature Vektoren
-# Kann nur gemacht werden, wenn zuerst ein Download ausgeführt wurde
-env/bin/python -m rep0st.analyze
-```
+# TODO
 
 ## Pull Requests
 Sind Willkommen!
