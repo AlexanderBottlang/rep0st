@@ -1,0 +1,23 @@
+{
+  "name": "rep0st",
+  "version": "0.0.0",
+  "description": "Protecting you from reposts!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReneHollander/rep0st.git"
+  },
+  "author": "Rene Hollander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReneHollander/rep0st/issues"
+  },
+  "dependencies": {
+    "long": "^2.2.3",
+    "sharp": "^0.10.0"
+  }
+}

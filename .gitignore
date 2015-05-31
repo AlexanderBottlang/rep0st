@@ -1,5 +1,3 @@
 .vagrant
-env/
-env
 
-*.pyc
+node_modules/
