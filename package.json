@@ -17,7 +17,10 @@
     "url": "https://github.com/ReneHollander/rep0st/issues"
   },
   "dependencies": {
+    "async": "^1.1.0",
     "long": "^2.2.3",
-    "sharp": "^0.10.0"
+    "request": "^2.57.0",
+    "sharp": "^0.10.0",
+    "underscore": "^1.8.3"
   }
 }
