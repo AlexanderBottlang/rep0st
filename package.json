@@ -18,9 +18,15 @@
   },
   "dependencies": {
     "async": "^1.1.0",
+    "bluebird": "^2.9.27",
+    "fs-extra": "^0.18.4",
+    "knex": "git://github.com/tgriesser/knex.git#5491e7083cc8e7cdaf54d98a0efd121c310003fb",
     "long": "^2.2.3",
+    "pg": "^4.3.0",
+    "pg-query-stream": "^0.7.0",
     "request": "^2.57.0",
     "sharp": "^0.10.0",
+    "through": "^2.3.7",
     "underscore": "^1.8.3"
   }
 }
