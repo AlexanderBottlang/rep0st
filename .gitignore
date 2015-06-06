@@ -4,3 +4,4 @@
 libvips-8.0-beta/
 data/
 node_modules/
+*.css
